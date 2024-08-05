@@ -1,0 +1,15 @@
+﻿{
+  "applications": {
+    "TodoApp.Angular": {
+      "type": "cli",
+      "workingDirectory": "../../angular",
+      "startCommand": "./start.ps1",
+      "launchUrl": "http://localhost:4200"
+    },
+    "TodoApp": {
+      "type": "dotnet-project",
+      "launchUrl": "https://localhost:44360",
+      "path": "../../TodoApp/TodoApp.csproj"
+    }
+  }
+}

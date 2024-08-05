@@ -1,0 +1,26 @@
+{
+  "id": "b7b542ac-dd93-48cf-b2b5-50f955c78988",
+  "template": "app-nolayers",
+  "versions": {
+    "AbpFramework": "8.2.1",
+    "AbpCommercial": "8.2.1",
+    "AbpStudio": "0.7.4"
+  },
+  "modules": {
+    "TodoApp": {
+      "path": "TodoApp.abpmdl"
+    }
+  },
+  "runProfiles": {
+    "Default": {
+      "path": "etc/run-profiles/Default.abprun.json"
+    }
+  },
+  "options": {
+    "httpRequests": {
+      "ignoredUrls": [
+        "^/metrics$"
+      ]
+    }
+  }
+}
